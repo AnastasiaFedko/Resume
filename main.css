@@ -1,0 +1,44 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_slide {
+    width: 15%;
+    float: left;
+}
+
+#photo {
+    width: 100%;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.about_slide {
+    width: 40%;
+    float: right;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.item {
+    width: 15%;
+    font-weight: bold;
+}
+
+.description {
+    width: 70%;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 650px) {
+    .about_slide {
+        width: 100%
+    }
+}
