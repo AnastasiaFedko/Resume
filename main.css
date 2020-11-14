@@ -28,7 +28,7 @@
 }
 
 .item {
-    width: 15%;
+    width: 20%;
     font-weight: bold;
 }
 
@@ -39,6 +39,7 @@
 
 @media screen and (max-width: 650px) {
     .about_slide {
-        width: 100%
+        width: 100%;
+        margin-left: 20%;
     }
 }
