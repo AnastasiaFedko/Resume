@@ -8,7 +8,7 @@
 }
 
 .photo_slide {
-    width: 15%;
+    width: 10%;
     float: left;
 }
 
@@ -21,10 +21,10 @@
 }
 
 .about_slide {
-    width: 40%;
+    width: 35%;
     float: right;
     margin-left: 20px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .item {
@@ -41,5 +41,55 @@
     .about_slide {
         width: 100%;
         margin-left: 20%;
+        font-size: 14px;
+    }
+    .grid_education_item, .list{
+        font-size: 14px;
+    }
+    #job{
+        font-size: 14px;
     }
 }
+@media (min-width: 651px) and (max-width: 800px) {
+    .about_slide,  .grid_education_item{  
+        font-size: 15px;
+    }
+    #job{
+        font-size: 15px;
+    }
+}
+.grid_education {
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content;
+    grid-template-rows: auto auto;
+    height: max-content;
+    justify-content: center;
+}
+
+.grid_education_else {
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    grid-template-rows: auto auto;
+    height: max-content;
+    justify-content: center;
+}
+
+.grid_education_item {
+    margin: 5px;
+}
+
+#job {
+    text-align: left;
+    margin: auto;
+}
+
+.list {
+    text-align: left;
+    width: max-content;
+    margin: auto;
+}
+
+body{
+    background: linear-gradient(to right, #c1ccf5 30%, #d3eaf0 50%,#a8f7f1 75%);
+}
+
